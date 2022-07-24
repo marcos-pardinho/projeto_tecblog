@@ -1,0 +1,126 @@
+@charset "utf8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+header {
+    background-color: #f7b500d0;
+    padding: 15px;
+    text-align: center;
+}
+
+header > h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600 ;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+        font-size: 0.8em;
+        border-bottom: 1px solid #f4f4f4 ;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+}
+
+header > nav {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topo > a:link, a:visited {
+            color: #FFF;
+            padding: 8px 12px;
+}
+  
+
+.topo > a:hover {
+    color: #f7b600;
+    background: #FFF;
+}
+
+.rodape {
+    color: black;
+}
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+section > article {
+        width: 660px;
+        float: left;
+
+}
+
+.postagem {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.postagem1 {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ aside {
+        width: 240px;
+        float: right;
+}
+
+.conteudo-lateral{
+        background-color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+}
+
+.texto-lateral {
+        font-size: 0.8em;
+        padding: 5px;
+}
+
+h3{
+    color: #565656;
+    background-color:#CCC;
+    padding: 5px;
+}
+
+.topo2 > a:link, a:visited{
+    color: #f7b600;
+    padding: 8px 12px;
+}
+
+.topo2{
+    background-color: white;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+    
+}
+
+
